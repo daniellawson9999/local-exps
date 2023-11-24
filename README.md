@@ -7,7 +7,7 @@ Requirements listed in `requirements.txt` or can follow instructions for https:/
 ## Server Instructions
 Can run locally as described, e.g. in test.py, or can use built in web server which "acts as a drop-in replacement for OpenAI's API:
 ```bash 
-python3 -m llama_cpp.server --model models/7B/llama-model.gguf --chat_format chatml --host 0.0.0.0
+python3 -m llama_cpp.server --model ~/scratch/llama-2-7b-chat.Q4_K_M.gguf --chat_format chatml --host 0.0.0.0
 ```
 Where `--host 0.0.0.0` allows for remote connection. 
 
