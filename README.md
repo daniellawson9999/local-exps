@@ -24,3 +24,6 @@ Example in client.py. We can simply use the openai python library, just need to 
 client = OpenAI(base_url="http://mc21.cs.purdue.edu:8000/v1", api_key="sk-xxx")
 ```
 in the above case, I ran the model on mc21, can swap w/ https://www.cs.purdue.edu/resources/facilities/lwsnservers.html. 
+```bash
+python client.py --host=mc21.cs.purdue.edu
+```
