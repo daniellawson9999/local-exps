@@ -1,7 +1,3 @@
-For local llm using: https://github.com/abetlen/llama-cpp-python, python bindings of https://github.com/ggerganov/llama.cpp
-
-`pip install llama-cpp-python[server]`
-
 ## Setup
 
 Using Python bindings (https://github.com/abetlen/llama-cpp-python) for llama.cpp (https://github.com/ggerganov/llama.cpp). Can run LMs quickly on just CPU, or with offloading some layers to GPU. 
