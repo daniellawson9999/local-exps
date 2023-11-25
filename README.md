@@ -27,3 +27,10 @@ in the above case, I ran the model on mc21, can swap w/ https://www.cs.purdue.ed
 ```bash
 python client.py --host=mc21.cs.purdue.edu
 ```
+
+## Models
+Testing models for fun:
+- https://huggingface.co/TheBloke/OpenHermes-2.5-Mistral-7B-GGUF
+
+## Ideas
+- Benchmark networking performance of streaming vs sending final response
