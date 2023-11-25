@@ -28,6 +28,8 @@ in the above case, I ran the model on mc21, can swap w/ https://www.cs.purdue.ed
 python client.py --host=mc21.cs.purdue.edu
 ```
 
+Various features of the OpenAI API are implemented in python-llama-cpp, for example, 
+
 ## Models
 Testing models for fun:
 - https://huggingface.co/TheBloke/OpenHermes-2.5-Mistral-7B-GGUF
