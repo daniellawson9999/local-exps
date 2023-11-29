@@ -7,7 +7,7 @@ llm = Llama(model_path=model_path, n_gpu_layers=32)
 # llm = Llama(model_path=model_path)
 max_tokens=512
 
-# import pdb; pdb.set_trace()
+import pdb; pdb.set_trace()
 # output = llm(
 #   "Q: Name the planets in the solar system? A: ", # Prompt
 #   max_tokens=32, # Generate up to 32 tokens
